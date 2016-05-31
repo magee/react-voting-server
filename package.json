@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "immutable": "^3.8.1",
+    "redux": "^3.5.2",
     "underscore": "^1.8.3"
   }
 }
