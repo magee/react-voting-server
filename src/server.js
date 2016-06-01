@@ -1,8 +1,8 @@
 import Server from 'socket.io';
 
 export default function startServer(store) {
-  const io = new Server().attach(8090);
-  console.log('server started on port 8090');
+  const io = new Server().attach(8081);
+  console.log('server started on port 8081');
 
   store.subscribe(
     () => io.emit('state', store.getState().toJS())
